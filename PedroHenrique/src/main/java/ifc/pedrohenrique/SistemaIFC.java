@@ -12,15 +12,16 @@ import java.util.Date;
  */
 public class SistemaIFC {
     public static void main(String[] args) {
-        Estudante Pedro = new Estudante ();
-        Pedro.getNome();
-        Pedro.obterIdade(new Date());
-        Pedro.genero = 'm';
+        Estudante camada = new Estudante ();
+        Estudante vinicius = new Estudante ();
+        Estudante joao = new Estudante ();
         
-        System.out.println("Hellow Word");
-    
-    
-    
-    
+        camada.setNome("camada");
+        vinicius.setNome("vinicius");
+        joao.setNome("joao");
+        
+        System.out.println(camada.getNome());
+        System.out.println(vinicius.getNome());
+        System.out.println(joao.getNome());
     }
 }
