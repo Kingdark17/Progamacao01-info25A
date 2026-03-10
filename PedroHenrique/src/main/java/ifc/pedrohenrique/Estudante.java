@@ -11,7 +11,7 @@ import java.util.Date;
  */
 public class Estudante {
         
-        private String nome;
+        private static String nome;
         private Date dataNascimento;
         private String cpf;
         char genero;
@@ -29,12 +29,13 @@ public class Estudante {
             return idade;
            
   }
-      public String getNome (){
-          return this.nome;
+      public static String getNome (){
+     
+          return nome;
       }
       
-      public void setNome(String _nome){
-          this.nome = _nome;
+      public static void setNome(String _nome){
+          nome = _nome;
       }
 
 
