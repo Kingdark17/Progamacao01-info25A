@@ -54,7 +54,7 @@ public class Estudante {
     public static void cpf(){
         
     }
-    public static void genero(){s
+    public static void genero(){
         
     }
     public static void email(){
