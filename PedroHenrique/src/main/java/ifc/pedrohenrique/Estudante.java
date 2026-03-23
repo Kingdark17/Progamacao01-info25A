@@ -48,34 +48,34 @@ public class Estudante {
     public static void setMatricula(String digito) {
         digito = digito;
     }
-    public static void dataDenascimento(){
+    public void dataDenascimento(){
     
     }
-    public static void cpf(){
+    public void cpf(){
         
     }
-    public static void genero(){
+    public void genero(){
         
     }
-    public static void email(){
+    public void email(){
         
     }
-    public static void nivelDeEnsino(){
+    public void nivelDeEnsino(){
         
     }
-    public static void telefone(){
+    public void telefone(){
         
     }
-    public static void dataDeIngresso(){
+    public void dataDeIngresso(){
         
     }
-    public static void semestreInicial(){
+    public void semestreInicial(){
         
     }
-    public static void situancaoAcademica(){
+    public void situancaoAcademica(){
         
     }
-    public static void digito(){
+    public void digito(){
         
     }
 }
