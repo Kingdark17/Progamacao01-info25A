@@ -22,4 +22,48 @@ public class Professor {
         private Date dataNascimento;
         private String cpf;
         private char genero;
+        
+        public Professor (){
+        this.nome = "nobody";
+        }
+       
+        public int obterIdade(Date hoje) {
+        int idade = 0;
+            return idade;
+        
+            
+        }
+        public static String getNome() {
+
+        return nome;
+        }
+        
+         public static void setNome(String _nome) {
+        nome = _nome;
+    }
+     public void TitulacaoAcademica(){
+    
+    }
+    public void cpf(){
+        
+    }
+    public void genero(){
+        
+    }
+    public void email(){
+        
+    }
+    public void areaDeAtuacao(){
+        
+    }
+    public void telefone(){
+        
+    }
+    public void Formacao(){
+        
+    }
+    public void SIAPE(){
+        
+    }
+   
 }
