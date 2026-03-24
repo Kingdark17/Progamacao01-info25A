@@ -1,0 +1,28 @@
+public class Diciplinas {
+    private String nomeDiciplina;
+    private String codigo;
+    private String cargaHoraria;
+    private String ementa;
+    private String objetivoDaaprendizagem;
+        
+public Diciplinas(){
+    this.nomeDiciplina = "nobody";
+}
+public void nomeDiciplina(){
+
+}
+public void codigo(){
+
+}
+public void cargaHoraria(){
+
+}
+public void ementa(){
+
+}
+public void objetivo(){
+
+}
+
+
+    }
