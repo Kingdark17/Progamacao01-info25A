@@ -14,7 +14,7 @@ public void nomeDiciplina(){
 public void codigo(){
 
 }
-public void cargaHoraria(){
+public void cargaHoraria(){''
 
 }
 public void ementa(){
